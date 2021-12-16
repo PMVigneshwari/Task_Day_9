@@ -1,0 +1,32 @@
+<!-- Design a contact us form with all fields as required. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1,b{
+            color: rgb(0, 38, 255);
+        }
+        b{
+font-style: italic;
+        }
+        button
+        {
+           background-color:hotpink;
+        }
+    </style>
+</head>
+<body>
+<h1>Contact Us</h1>
+<b>Fill below details to get call back</b><br>
+<hr>
+Your Name:<input type="text"><br>  
+Date Of Birth:<input type="date"><br>
+Mail ID: <input type="mail"><br>
+Password:<input type="password" placeholder="Create min.8 Digit Alphanumeric Password"><br>
+<button type="submit">Submit</button>
+</body>
+</html>
